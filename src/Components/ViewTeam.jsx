@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import Navbar from "./NavBar";
 
 const ViewTeam = () => {
 
@@ -21,6 +22,7 @@ const ViewTeam = () => {
 
     return (
         <div>
+            <Navbar />
             <div className="container mt-4">
                 <div className="row">
                     <div className="col col-12">

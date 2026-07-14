@@ -1,6 +1,7 @@
 
 import axios from 'axios';
 import React, { useState } from 'react'
+import Navbar from './NavBar';
 
 const AddTeam = () => {
     const [input, setInput] = useState({
@@ -40,6 +41,7 @@ const AddTeam = () => {
 
     return (
         <div>
+            <Navbar />
 
             <div className="container mt-4">
         <div className="card shadow p-4">
