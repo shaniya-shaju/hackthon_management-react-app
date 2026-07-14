@@ -27,7 +27,7 @@ const AddTeam = () => {
     console.log(input);
 
     axios
-      .post("http://localhost:3000/add", input)
+      .post("http://localhost:3000/add-hackthon", input)
       .then((response) => {
         console.log(response.data);
         alert("Team Registered Successfully");
